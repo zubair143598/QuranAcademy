@@ -176,7 +176,7 @@ const Hero = () => {
           <Link href="/SixKalimas">
             <img
               className="w-[250px] h-[350px] hover:scale-125 transition-transform transform"
-              src="./assets/SKA.png"
+              src="./assets/SKA.PNG"
               alt="SKA"
             />
           </Link>
