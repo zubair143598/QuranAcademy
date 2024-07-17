@@ -57,7 +57,7 @@ const Hero = () => {
           <Link href="/Nooraniqaida">
             <img
               className="w-[250px] hover:scale-125 transition-transform transform h-[350px]"
-              src="./assets/NC.PNG"
+              src="./assets/NC.png"
               alt="NC"
             />
           </Link>
@@ -80,7 +80,7 @@ const Hero = () => {
           <Link href="/QRWT">
             <img
               className="w-[250px] h-[350px] hover:scale-125 transition-transform transform"
-              src="./assets/QRT.PNG"
+              src="./assets/QRT.png"
               alt="QRT"
             />
           </Link>
@@ -105,7 +105,7 @@ const Hero = () => {
           <Link href="/MasnoonPrayer">
             <img
               className="w-[250px] h-[350px] hover:scale-125 transition-transform transform"
-              src="./assets/MP.PNG"
+              src="./assets/MP.png"
               alt="MP"
             />
           </Link>
@@ -130,7 +130,7 @@ const Hero = () => {
           <Link href="/TenSurah">
             <img
               className="w-[250px] h-[350px] hover:scale-125 transition-transform transform"
-              src="./assets/SSM.PNG"
+              src="./assets/SSM.png"
               alt="SSM"
             />
           </Link>
@@ -153,7 +153,7 @@ const Hero = () => {
           <Link href="/SixKalimas">
             <img
               className="w-[250px] h-[350px] hover:scale-125 transition-transform transform"
-              src="./assets/SKA.PNG"
+              src="./assets/SKA.png"
               alt="SKA"
             />
           </Link>
@@ -176,7 +176,7 @@ const Hero = () => {
           <Link href="/SixKalimas">
             <img
               className="w-[250px] h-[350px] hover:scale-125 transition-transform transform"
-              src="./assets/SKA.PNG"
+              src="./assets/SKA.png"
               alt="SKA"
             />
           </Link>
