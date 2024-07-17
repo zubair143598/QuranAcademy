@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Courses = () => {
   const CoursesDetails = [
     {
-      image: "./assets/14.png",
+      image: "./assets/14.PNG",
       price: "$20.00/month",
       title: "Learn Noorani Qaida",
       recommended: "{For Beginners}",
@@ -14,7 +14,7 @@ const Courses = () => {
       details: "",
     },
     {
-      image: "./assets/8.png",
+      image: "./assets/8.PNG",
       price: "$20.00/month",
       title: "Learn Quran Recitation with Tajweed",
 

@@ -3,32 +3,32 @@ import React from "react";
 const Categories = () => {
   const Categories = [
     {
-      image: "./assets/1.png",
+      image: "./assets/1.PNG",
       title: "Angular Development",
       courses: "5 courses",
     },
     {
-      image: "./assets/1.png",
+      image: "./assets/1.PNG",
       title: "Angular Development",
       courses: "5 courses",
     },
     {
-      image: "./assets/1.png",
+      image: "./assets/1.PNG",
       title: "Angular Development",
       courses: "5 courses",
     },
     {
-      image: "./assets/1.png",
+      image: "./assets/1.PNG",
       title: "Angular Development",
       courses: "5 courses",
     },
     {
-      image: "./assets/1.png",
+      image: "./assets/1.PNG",
       title: "Angular Development",
       courses: "5 courses",
     },
     {
-      image: "./assets/1.png",
+      image: "./assets/1.PNG",
       title: "Angular Development",
       courses: "5 courses",
     },

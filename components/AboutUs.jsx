@@ -10,7 +10,7 @@ const AboutUs = () => {
     >
       <div className=" w-[80%] mx-auto py-20 grid grid-cols-1 lg:grid-cols-2 justify-items-center">
         <div className="  ">
-          <img className="w-[30rem]" src="./assets/8.png" alt="" />
+          <img className="w-[30rem]" src="./assets/8.PNG" alt="" />
         </div>
         <div>
           <div>
