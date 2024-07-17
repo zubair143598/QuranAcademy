@@ -19,10 +19,9 @@ const Hero = () => {
           const currentDelay = index * 0.3;
           return (
             <motion.h1
-              key={index}
               ref={ref}
               initial={{
-                y:100,
+                y: 50,
                 opacity: 0,
               }}
               animate={
@@ -32,6 +31,8 @@ const Hero = () => {
                 duration: currentDuration,
                 delay: currentDelay,
               }}
+              key={index}
+
               className="space-x-5 md:text-[3.8rem] text-[2rem]  font-bold text-center "
             >
               {val}
@@ -40,43 +41,17 @@ const Hero = () => {
         })}
       </div>
       <div className=" grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 space-y-6 ">
-        <motion.div ref={ref}
-                    initial={{
-                      y:100,
-                      opacity: 0,
-                    }}
-                    animate={
-                      isInView
-                        ? { x: 0, y: 0, scale: 1, rotate: 0, opacity: 1 }
-                        : {}
-                    }
-                    transition={{
-                      duration: 0.3,
-                      delay: 0,
-                    }} className="flex justify-center items-center ">
+        <div className="flex justify-center items-center ">
           <Link href="/Nooraniqaida">
             <img
               className="w-[250px] hover:scale-125 transition-transform transform h-[350px]"
               src="./assets/Noorani Qaida.png"
-              alt="Noorani Qaida"
+              alt="NC"
             />
           </Link>
-        </motion.div>
+        </div>
 
-        <motion.div ref={ref}
-                    initial={{
-                      y:100,
-                      opacity: 0,
-                    }}
-                    animate={
-                      isInView
-                        ? { x: 0, y: 0, scale: 1, rotate: 0, opacity: 1 }
-                        : {}
-                    }
-                    transition={{
-                      duration: 0.6,
-                      delay: 0.3,
-                    }} className="flex justify-center items-center">
+        <div className="flex justify-center items-center">
           <Link href="/QRWT">
             <img
               className="w-[250px] h-[350px] hover:scale-125 transition-transform transform"
@@ -84,24 +59,9 @@ const Hero = () => {
               alt="Tajweed"
             />
           </Link>
-        </motion.div>
+        </div>
 
-        <motion.div
-        ref={ref}
-        initial={{
-          y:100,
-          opacity: 0,
-        }}
-        animate={
-          isInView
-            ? { x: 0, y: 0, scale: 1, rotate: 0, opacity: 1 }
-            : {}
-        }
-        transition={{
-          duration: 0.9,
-          delay: 0.6,
-        }}
-        className="flex justify-center items-center">
+        <div className="flex justify-center items-center">
           <Link href="/MasnoonPrayer">
             <img
               className="w-[250px] h-[350px] hover:scale-125 transition-transform transform"
@@ -109,24 +69,9 @@ const Hero = () => {
               alt="MP"
             />
           </Link>
-        </motion.div>
+        </div>
 
-        <motion.div
-        ref={ref}
-        initial={{
-          y:100,
-          opacity: 0,
-        }}
-        animate={
-          isInView
-            ? { x: 0, y: 0, scale: 1, rotate: 0, opacity: 1 }
-            : {}
-        }
-        transition={{
-          duration: 1.3,
-          delay: 0.9,
-        }}
-        className="flex justify-center items-center">
+        <div className="flex justify-center items-center">
           <Link href="/TenSurah">
             <img
               className="w-[250px] h-[350px] hover:scale-125 transition-transform transform"
@@ -134,22 +79,9 @@ const Hero = () => {
               alt="SSM"
             />
           </Link>
-        </motion.div>
+        </div>
 
-        <motion.div ref={ref}
-                    initial={{
-                      y:100,
-                      opacity: 0,
-                    }}
-                    animate={
-                      isInView
-                        ? { x: 0, y: 0, scale: 1, rotate: 0, opacity: 1 }
-                        : {}
-                    }
-                    transition={{
-                      duration: 1.6,
-                      delay: 1.3,
-                    }} className="flex justify-center items-center">
+        <div className="flex justify-center items-center">
           <Link href="/SixKalimas">
             <img
               className="w-[250px] h-[350px] hover:scale-125 transition-transform transform"
@@ -157,22 +89,9 @@ const Hero = () => {
               alt="SKA"
             />
           </Link>
-        </motion.div>
+        </div>
 
-        <motion.div ref={ref}
-                    initial={{
-                      y:100,
-                      opacity: 0,
-                    }}
-                    animate={
-                      isInView
-                        ? { x: 0, y: 0, scale: 1, rotate: 0, opacity: 1 }
-                        : {}
-                    }
-                    transition={{
-                      duration: 1.9,
-                      delay: 1.6,
-                    }} className="flex justify-center items-center">
+        <div className="flex justify-center items-center">
           <Link href="/SixKalimas">
             <img
               className="w-[250px] h-[350px] hover:scale-125 transition-transform transform"
@@ -180,7 +99,7 @@ const Hero = () => {
               alt="SKA"
             />
           </Link>
-        </motion.div>
+        </div>
       </div>
 
       <p className="w-[90%] bg-black h-[2px]  mx-auto mt-10" />

@@ -16,7 +16,7 @@ const Footer = () => {
             <li>
               <img
                 className="w-[88px] rounded-xl"
-                src="./assets/1.png"
+                src="./assets/1.PNG"
                 alt=""
               />
             </li>

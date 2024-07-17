@@ -3,19 +3,19 @@ import React from 'react'
 const TenSurah = () => {
     const Prayers = [
         {
-          image: "./assets/Snas.png",
+          image: "./assets/Snas.PNG",
           alt: "mp1",
           voice: "voice/Snas.mp3",
           notSupport:" Your browser does not support the audio element."
         },
         {
-            image: "./assets/Sfalaq.png",
+            image: "./assets/Sfalaq.PNG",
             alt: "Sfalaq",
             voice: "voice/Sfalaq.mp3",
             notSupport:" Your browser does not support the audio element."
           },
           {
-            image: "./assets/Sakhlas.png",
+            image: "./assets/Sakhlas.PNG",
             alt: "Sakhlas",
             voice: "voice/Sakhlas.mp3",
             notSupport:" Your browser does not support the audio element."

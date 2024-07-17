@@ -3,37 +3,37 @@ import React from 'react'
 const SixKalimas = () => {
     const Prayers = [
         {
-          image: "./assets/FK1.png",
+          image: "./assets/FK1.PNG",
           alt: "FK1",
           voice: "voice/FK1.mpeg",
           notSupport:" Your browser does not support the audio element."
         },
         {
-            image: "./assets/SK2.png",
+            image: "./assets/SK2.PNG",
             alt: "SK2",
             voice: "voice/SK2.mpeg",
             notSupport:" Your browser does not support the audio element."
           },
           {
-            image: "./assets/TK3.png",
+            image: "./assets/TK3.PNG",
             alt: "TK3",
             voice: "voice/TK3.mpeg",
             notSupport:" Your browser does not support the audio element."
           },
           {
-            image: "./assets/FK4.png",
+            image: "./assets/FK4.PNG",
             alt: "FK4",
             voice: "voice/FK4.mpeg",
             notSupport:" Your browser does not support the audio element."
           },
           {
-            image: "./assets/FK5.png",
+            image: "./assets/FK5.PNG",
             alt: "FK5",
             voice: "voice/FK5.mpeg",
             notSupport:" Your browser does not support the audio element."
           },
           {
-            image: "./assets/SK6.png",
+            image: "./assets/SK6.PNG",
             alt: "SK6",
             voice: "voice/SK6.mpeg",
             notSupport:" Your browser does not support the audio element."

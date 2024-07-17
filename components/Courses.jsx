@@ -74,7 +74,7 @@ const Courses = () => {
                 scale: 1.2,
                 transition: { duration: 0.5 },
               }}
-              whileTap={{ scale: 0.9 }}
+              
               className=" w-[70%] bg-white rounded-lg overflow-hidden shadow-lg"
             >
               <div className="w-full h-[10rem] overflow-hidden">
