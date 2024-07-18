@@ -12,7 +12,7 @@ const Hero = () => {
   const baseDuration = 0.5;
 
   return (
-    <div className="bg-gradient-to-r from-orange-400 to-pink-500 mt-[-1px] lg:mt-0  pt-[3rem]">
+    <div  className="bg-gradient-to-r from-orange-400 to-pink-500 mt-[-1px] lg:mt-0  pt-[3rem]">
       <div className="flex justify-center space-x-5 ">
         {online.map((val, index) => {
           const currentDuration = baseDuration + index * 0.2;

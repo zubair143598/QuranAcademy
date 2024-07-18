@@ -61,7 +61,7 @@ const Courses = () => {
   ];
 
   return (
-    <div className=" bg-[#E99E7C] ">
+    <div id="courses" className=" bg-gradient-to-r from-orange-400 to-pink-500 ">
       <div className=" text-center pt-10">
         <h6 className=" text-[24px] font-bold">Courses</h6>
         <h3 className=" text-[40px] font-bold">Courses We Offer</h3>

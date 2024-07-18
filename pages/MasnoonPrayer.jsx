@@ -39,7 +39,7 @@ const MasnoonPrayer = () => {
         notSupport:" Your browser does not support the audio element."
       },
       {
-        image: "./assets/mp7.jpeg",
+        image: "./assets/MP7.jpeg",
         alt: "mp7",
         voice: "voice/MP7.mpeg",
         notSupport:" Your browser does not support the audio element."

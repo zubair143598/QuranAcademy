@@ -8,7 +8,7 @@ const AboutUs = () => {
           "linear-gradient(135deg, #ff7eb9, #ff65a3, #7afcff, #feff9c, #fff740)",
       }}
     >
-      <div className=" w-[80%] mx-auto py-20 grid grid-cols-1 lg:grid-cols-2 justify-items-center">
+      <div id="AboutUs" className="  w-[80%] mx-auto py-20 grid grid-cols-1 lg:grid-cols-2 justify-items-center">
         <div className="  ">
           <img className="w-[30rem]" src="./assets/8.PNG" alt="" />
         </div>

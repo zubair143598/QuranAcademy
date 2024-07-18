@@ -58,7 +58,7 @@ const Navbar = () => {
             onMouseEnter={() => setIsDropdownOpen(true)}
             onMouseLeave={() => setIsDropdownOpen(false)}
           >
-            <button className="">Courses</button>
+            <Link href="#courses" className="">Courses</Link>
             {isDropdownOpen && (
               <div className="absolute top-full left-0 w-48 bg-white shadow-lg rounded-md z-10">
                 <Link href="/MasnoonPrayer" className="block px-4 py-2 ">
@@ -79,10 +79,10 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link href="/about" className="">
+          <Link href="#AboutUs" className="">
             About Us
           </Link>
-          <Link href="/contact" className="">
+          <Link href="/" className="">
             Contact Us
           </Link>
         </div>
@@ -133,13 +133,13 @@ const Navbar = () => {
           <Link href="/categories" className="block px-4 py-2 ">
             Categories
           </Link>
-          <Link href="/courses" className="block px-4 py-2 ">
+          <Link href="#Courses" className="block px-4 py-2 ">
             Courses
           </Link>
-          <Link href="/about" className="block px-4 py-2 ">
+          <Link href="#AboutUs" className="block px-4 py-2 ">
             About Us
           </Link>
-          <Link href="/contact" className="block px-4 py-2 ">
+          <Link href="/" className="block px-4 py-2 ">
             Contact Us
           </Link>
         </div>

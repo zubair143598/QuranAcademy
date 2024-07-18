@@ -3,9 +3,9 @@ import React from "react";
 const Hero = () => {
   return (
     
-      <div className=" flex lg:flex-row w-[85%] mx-auto items-center flex-col lg:gap-x-10">
+      <div id="" className=" flex lg:flex-row w-[85%] mx-auto items-center flex-col lg:gap-x-10">
         <div className=" lg:w-[40%] ">
-          <img className=" w-[250] md:w-[350px] 4xl:[500px]" src="./assets/14.png" alt="" />
+          <img className=" w-[250] md:w-[350px] 4xl:[500px]" src="./assets/14.PNG" alt="" />
         </div>
         <div className="w-[100%] space-y-6">
           <div className=" underline underline-offset-8">
