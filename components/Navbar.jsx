@@ -41,65 +41,67 @@ const Navbar = () => {
       <div
         className={` ${
           isScrolled ? " justify-evenly " : "justify-between"
-        }  container p-4 lg:p-0 flex  items-center`}
+        }  container  p-4 lg:p-0 flex  items-center`}
       >
-        <Link href="/" className="text-2xl font-bold">
-          Quran Academy
+        <Link href="/" className=" font-bold">
+        <img
+                className="w-[70px] hover:scale-125 transition-transform transform rounded-xl"
+                src="./assets/1.PNG"
+                alt=""
+              />
         </Link>
-        <div className="hidden md:flex space-x-6">
-          <Link href="/" className="">
+        <div className=" hidden md:flex space-x-6">
+          <Link href="/" className="text-[20px] duration-300 hover:scale-125 transition-transform transform font-bold">
             Home
           </Link>
-          <Link href="/#" className="">
-            Categories
-          </Link>
+          
           <div
             className="relative"
             onMouseEnter={() => setIsDropdownOpen(true)}
             onMouseLeave={() => setIsDropdownOpen(false)}
           >
-            <Link href="#courses" className="">Courses</Link>
+            <Link href="#courses" className="text-[20px] font-bold duration-300 hover:scale-125 transition-transform transform">Courses</Link>
             {isDropdownOpen && (
-              <div className="absolute top-full left-0 w-48 bg-white shadow-lg rounded-md z-10">
-                <Link href="/MasnoonPrayer" className="block px-4 py-2 ">
+              <div className="absolute  top-full left-0 w-48 bg-white shadow-lg rounded-md z-10">
+                <Link href="/MasnoonPrayer" className=" hover:bg-black hover:text-white text-[20px] font-bold px-4 py-2 ">
                   MasnoonPrayer
                 </Link>
-                <Link href="/Nooraniqaida" className="block px-4 py-2 ">
+                <Link href="/Nooraniqaida" className="block hover:bg-black hover:text-white px-4 text-[20px] font-bold py-2 ">
                   Nooraniqaida
                 </Link>
-                <Link href="/Qaida" className="block px-4 py-2 ">
+                <Link href="/Qaida" className="block px-4 hover:bg-black hover:text-white text-[20px] font-bold py-2 ">
                   Qaida
                 </Link>
-                <Link href="/QRWT" className="block px-4 py-2 ">
+                <Link href="/QRWT" className="block px-4 hover:bg-black hover:text-white text-[20px] font-bold py-2 ">
                   QRWT
                 </Link>
-                <Link href="/SixKalimas" className="block px-4 py-2 ">
+                <Link href="/SixKalimas" className="block hover:bg-black hover:text-white text-[20px] font-bold px-4 py-2 ">
                   SixKalimas
                 </Link>
               </div>
             )}
           </div>
-          <Link href="#AboutUs" className="">
+          <Link href="#AboutUs" className="text-[20px] duration-300 hover:scale-125 transition-transform transform font-bold">
             About Us
           </Link>
-          <Link href="/" className="">
+          <Link href="#footer" className="text-[20px] duration-300  scroll-smooth hover:scale-125 transition-transform transform font-bold">
             Contact Us
           </Link>
         </div>
         <div className="flex gap-x-4">
-        <Link href="/Meeting" className="">
+        <Link href="/Meeting" className="text-[20px] duration-300 hover:scale-125 transition-transform transform font-bold">
             Meeting
           </Link>
           {user ? (
             <>
               <FaUser className=" mt-1" />
-              <span>{user.username}</span>
-              <button onClick={handleLogout} className="ml-2">
+              <span className="text-[20px] font-bold">{user.username}</span>
+              <button onClick={handleLogout} className="ml-2 text-[20px] duration-300 hover:scale-125 transition-transform transform font-bold">
                 Logout
               </button>
             </>
           ) : (
-            <Link href="/LoginForm">Login</Link>
+            <Link className="text-[20px] duration-300 hover:scale-125 transition-transform transform font-bold" href="/LoginForm">Login</Link>
           )}
         </div>
 
@@ -126,22 +128,23 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden bg-gradient-to-r from-orange-400 to-pink-500">
-          <Link href="/" className="block px-4 py-2 ">
+        <div className="md:hidden bg-gradient-to-r flex flex-col items-end from-orange-400 to-pink-500">
+          <div>
+
+          <Link href="/" className="block px-4 py-2 text-[20px] font-bold">
             Home
           </Link>
-          <Link href="/categories" className="block px-4 py-2 ">
-            Categories
-          </Link>
-          <Link href="#Courses" className="block px-4 py-2 ">
+          
+          <Link href="#Courses" className="block px-4 py-2 text-[20px] font-bold ">
             Courses
           </Link>
-          <Link href="#AboutUs" className="block px-4 py-2 ">
+          <Link href="#AboutUs  " className="block px-4 py-2 text-[20px] font-bold">
             About Us
           </Link>
-          <Link href="/" className="block px-4 py-2 ">
+          <Link href="#footer" className="block px-4 py-2 text-[20px] font-bold ">
             Contact Us
           </Link>
+      </div>
         </div>
       )}
     </nav>

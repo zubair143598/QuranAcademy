@@ -12,8 +12,8 @@ const Hero = () => {
   const baseDuration = 0.5;
 
   return (
-    <div  className="bg-gradient-to-r from-orange-400 to-pink-500 mt-[-1px] lg:mt-0  pt-[3rem]">
-      <div className="flex justify-center space-x-5 ">
+    <div  className="bg-gradient-to-r from-orange-400 to-pink-500 mt-[-1px] lg:mt-0  pt-[3.6rem]">
+      <div className="flex justify-center lg:space-x-7 space-x-2  ">
         {online.map((val, index) => {
           const currentDuration = baseDuration + index * 0.2;
           const currentDelay = index * 0.3;
@@ -33,7 +33,7 @@ const Hero = () => {
               }}
               key={index}
 
-              className="space-x-5 md:text-[3.8rem] text-[2rem]  font-bold text-center "
+              className=" md:text-[3.8rem] text-[1.5rem] lg:mb-0 mb-5  font-bold text-center "
             >
               {val}
             </motion.h1>
@@ -64,7 +64,7 @@ const Hero = () => {
         <div className="flex justify-center items-center">
           <Link href="/MasnoonPrayer">
             <img
-              className="w-[250px] h-[350px] hover:scale-125 transition-transform transform"
+              className="w-[250px] h-[350px] duration-300 hover:scale-125 transition-transform transform"
               src="./assets/MP.PNG"
               alt="MP"
             />
@@ -103,6 +103,7 @@ const Hero = () => {
       </div>
 
       <p className="w-[90%] bg-black h-[2px]  mx-auto mt-10" />
+      
     </div>
   );
 };

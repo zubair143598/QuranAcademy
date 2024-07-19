@@ -9,7 +9,7 @@ import {
 import { MdAttachEmail } from "react-icons/md";
 const Footer = () => {
   return (
-    <div className=" bg-black py-16 text-white">
+    <div id="footer" className="bg-black py-16 text-white">
       <div className=" grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 w-[80%] mx-auto">
         <div>
           <ul className=" space-y-5">
@@ -43,19 +43,16 @@ const Footer = () => {
           <ul className=" space-y-4">
             <li>
               {" "}
-              <Link href="#">Home</Link>{" "}
+              <Link href="/">Home</Link>{" "}
+            </li>
+            
+            <li>
+              {" "}
+              <Link href="/">Courses</Link>{" "}
             </li>
             <li>
               {" "}
-              <Link href="#">Categories</Link>{" "}
-            </li>
-            <li>
-              {" "}
-              <Link href="#">Courses</Link>{" "}
-            </li>
-            <li>
-              {" "}
-              <Link href="#">About Us</Link>{" "}
+              <Link href="/">About Us</Link>{" "}
             </li>
             <li>
               {" "}
