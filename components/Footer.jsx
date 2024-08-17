@@ -40,7 +40,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <ul className=" space-y-4">
+          <ul className=" space-y-6">
             <li>
               {" "}
               <Link href="/">Home</Link>{" "}
@@ -48,15 +48,15 @@ const Footer = () => {
             
             <li>
               {" "}
-              <Link href="/">Courses</Link>{" "}
+              <Link href="#courses">Courses</Link>{" "}
             </li>
             <li>
               {" "}
-              <Link href="/">About Us</Link>{" "}
+              <Link href="#AboutUs">About Us</Link>{" "}
             </li>
             <li>
               {" "}
-              <Link href="#">Contact Us</Link>{" "}
+              <Link href="#footer">Contact Us</Link>{" "}
             </li>
           </ul>
         </div>

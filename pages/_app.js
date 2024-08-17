@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
     <>
       <UserProvider>
         <Navbar />
-        <div className=" fixed bottom-6 right-10 ">
+        <div className=" fixed bottom-6 z-50 duration-300  hover:scale-125 transition-transform transform right-10 ">
           <Link href="https://wa.me/+923179674898">
             <img
               className="w-[70px] rounded-[26px]"

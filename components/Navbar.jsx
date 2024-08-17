@@ -84,7 +84,7 @@ const Navbar = () => {
           <Link href="#AboutUs" className="text-[20px] duration-300 hover:scale-125 transition-transform transform font-bold">
             About Us
           </Link>
-          <Link href="#footer" className="text-[20px] duration-300  scroll-smooth hover:scale-125 transition-transform transform font-bold">
+          <Link href="#footer" className="text-[20px] duration-300  hover:scale-125 transition-transform transform font-bold">
             Contact Us
           </Link>
         </div>

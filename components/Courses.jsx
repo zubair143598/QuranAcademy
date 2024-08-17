@@ -61,11 +61,12 @@ const Courses = () => {
   ];
 
   return (
-    <div id="courses" className=" bg-gradient-to-r from-orange-400 to-pink-500 ">
+    <div id="courses" className="  bg-gradient-to-r from-orange-400 to-pink-500 ">
       <div className=" text-center pt-10">
         <h6 className=" text-[24px] font-bold">Courses</h6>
         <h3 className=" text-[40px] font-bold">Courses We Offer</h3>
       </div>
+      {/* Framer motion library for animation  */}
       <div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-center  py-16 gap-y-10 ">
         {CoursesDetails.map((val, index) => {
           return (

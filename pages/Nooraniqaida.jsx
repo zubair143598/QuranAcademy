@@ -86,13 +86,13 @@ const Nooraniqaida = () => {
 
   return (
     <div className="p-4 bg-[#E07878] min-h-screen flex flex-col lg:pt-20 items-center">
-      <div className="lg:grid  hidden lg:grid-cols-6 gap-1">
+      <div className="lg:grid  hidden lg:grid-cols-6 ">
         {images.map((image, index) => (
           <img
             key={index}
             src={image.src}
             alt="Click me"
-            className={`m-1 rounded-lg transition-transform transform hover:scale-125 border-2 hover:border-indigo-600 ${index % 2 === 0 ? '' : 'filter grayscale hover:filter-none'}`}
+            className={`m-1 w-[90px] rounded-lg transition-transform transform hover:scale-125 border-2 hover:border-indigo-600 ${index % 2 === 0 ? '' : 'filter grayscale hover:filter-none'}`}
             onClick={() => handleImageClick(image.audio)}
           />
         ))}
