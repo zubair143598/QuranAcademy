@@ -15,7 +15,7 @@
     "formik": "^2.4.6",
     "framer-motion": "^11.3.5",
     "lib-jitsi-meet": "^1.0.6",
-    "next": "14.2.5",
+    "next": "14.2.35",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
